@@ -1,0 +1,347 @@
+/* --- Explicit Light Mode Sidebar Styles (Default) --- */
+html:not(.dark) aside#sidebar {
+  background-color: #EEF5FF !important;
+  border-color: rgba(180, 212, 255, 0.6) !important;
+  color: #475569 !important;
+}
+
+html:not(.dark) aside#sidebar .sidebar-collapse-btn {
+  background-color: #ffffff !important;
+  border-color: #B4D4FF !important;
+  color: #176B87 !important;
+}
+html:not(.dark) aside#sidebar .sidebar-collapse-btn:hover {
+  background-color: #f8fafc !important;
+}
+
+html:not(.dark) aside#sidebar .sidebar-divider {
+  border-color: rgba(180, 212, 255, 0.4) !important;
+}
+
+html:not(.dark) aside#sidebar .sidebar-footer {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border-color: rgba(180, 212, 255, 0.4) !important;
+}
+
+html:not(.dark) aside#sidebar .sidebar-logout-btn {
+  color: #64748b !important;
+  background-color: transparent !important;
+}
+html:not(.dark) aside#sidebar .sidebar-logout-btn:hover {
+  background-color: #fef2f2 !important;
+  color: #dc2626 !important;
+}
+
+/* Sidebar Menu Hover Overrides in Light Mode */
+html:not(.dark) aside#sidebar a:hover,
+html:not(.dark) aside#sidebar button.dropdown-btn:hover {
+  background-color: #ffffff !important;
+  color: #176B87 !important;
+  border-color: rgba(180, 212, 255, 0.6) !important;
+  box-shadow: 0 1px 3px rgba(23, 107, 135, 0.08) !important;
+}
+
+html:not(.dark) aside#sidebar a:hover i,
+html:not(.dark) aside#sidebar button.dropdown-btn:hover i {
+  color: #176B87 !important;
+}
+
+/* Light Mode Card & Container Overrides */
+html:not(.dark) .role-metric-card,
+html:not(.dark) .user-metric-card {
+  background-color: #ffffff !important;
+  border-color: rgba(226, 232, 240, 0.9) !important;
+  color: #0f172a !important;
+}
+
+html:not(.dark) .role-metric-card:hover,
+html:not(.dark) .user-metric-card:hover {
+  background-color: #ffffff !important;
+  border-color: #cbd5e1 !important;
+  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.08) !important;
+}
+
+html.dark .role-metric-card,
+html.dark .user-metric-card {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+}
+
+html:not(.dark) main {
+  background-color: #F8FAFC !important;
+}
+
+/* Metric Card Numbers High-Contrast Text Colors */
+html:not(.dark) #statTotalRoles,
+html:not(.dark) #statTotalUsers {
+  color: #0f172a !important;
+}
+html.dark #statTotalRoles,
+html.dark #statTotalUsers {
+  color: #ffffff !important;
+}
+
+html:not(.dark) #statGlobalRoles,
+html:not(.dark) #statDepts {
+  color: #2563eb !important;
+}
+html.dark #statGlobalRoles,
+html.dark #statDepts {
+  color: #60a5fa !important;
+}
+
+html:not(.dark) #statActiveRoles,
+html:not(.dark) #statActiveUsers {
+  color: #059669 !important;
+}
+html.dark #statActiveRoles,
+html.dark #statActiveUsers {
+  color: #34d399 !important;
+}
+
+html:not(.dark) #statSystemRoles {
+  color: #d97706 !important;
+}
+html.dark #statSystemRoles {
+  color: #fcd34d !important;
+}
+
+html:not(.dark) #statDeactivatedUsers {
+  color: #e11d48 !important;
+}
+html.dark #statDeactivatedUsers {
+  color: #fb7185 !important;
+}
+
+/* --- Explicit Dark Mode Styles --- */
+html.dark {
+  color-scheme: dark;
+}
+
+html.dark body {
+  background-color: #0b1329 !important;
+  color: #f1f5f9 !important;
+}
+
+html.dark header {
+  background-color: #0f172a !important;
+  border-color: #1e293b !important;
+}
+
+html.dark aside#sidebar {
+  background-color: #0f172a !important;
+  border-color: #1e293b !important;
+  color: #94a3b8 !important;
+}
+
+html.dark aside#sidebar .sidebar-collapse-btn {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+  color: #86B6F6 !important;
+}
+html.dark aside#sidebar .sidebar-collapse-btn:hover {
+  background-color: #334155 !important;
+}
+
+html.dark aside#sidebar .sidebar-divider {
+  border-color: #1e293b !important;
+}
+
+html.dark aside#sidebar .sidebar-footer {
+  background-color: #0b1329 !important;
+  border-color: #1e293b !important;
+}
+
+html.dark aside#sidebar .sidebar-logout-btn {
+  color: #fb7185 !important;
+  background-color: transparent !important;
+}
+html.dark aside#sidebar .sidebar-logout-btn:hover {
+  background-color: rgba(136, 19, 55, 0.4) !important;
+  color: #fda4af !important;
+}
+
+html.dark aside#sidebar a.bg-white,
+html.dark aside#sidebar button.bg-white {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+  color: #86B6F6 !important;
+}
+
+html.dark aside#sidebar a:hover,
+html.dark aside#sidebar button.dropdown-btn:hover,
+html.dark aside#sidebar [class*="hover:bg-white"]:hover {
+  background-color: rgba(30, 41, 59, 0.8) !important;
+  color: #86B6F6 !important;
+  border-color: rgba(51, 65, 85, 0.6) !important;
+}
+
+html.dark aside#sidebar a:hover i,
+html.dark aside#sidebar button.dropdown-btn:hover i {
+  color: #86B6F6 !important;
+}
+
+html.dark aside#sidebar i.text-brand-medium {
+  color: #86B6F6 !important;
+}
+
+html.dark main {
+  background-color: #0b1329 !important;
+}
+
+html.dark .bg-white {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+  color: #f8fafc !important;
+}
+
+html.dark .bg-slate-50,
+html.dark [class*="bg-slate-50"],
+html.dark [class*="bg-[#F8FAFC]"] {
+  background-color: #0f172a !important;
+  border-color: #1e293b !important;
+  color: #cbd5e1 !important;
+}
+
+html.dark .bg-slate-100,
+html.dark [class*="bg-slate-100"] {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+  color: #cbd5e1 !important;
+}
+
+html.dark .bg-slate-200,
+html.dark [class*="bg-slate-200"] {
+  background-color: #334155 !important;
+  border-color: #475569 !important;
+  color: #f8fafc !important;
+}
+
+html.dark .bg-brand-light,
+html.dark [class*="bg-brand-light"] {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+  color: #86B6F6 !important;
+}
+
+html.dark [class*="from-brand-light"],
+html.dark [class*="to-blue-50"] {
+  background-image: none !important;
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+}
+
+html.dark [class*="bg-blue-50"] {
+  background-color: rgba(30, 58, 138, 0.4) !important;
+  border-color: rgba(30, 64, 175, 0.5) !important;
+}
+
+html.dark [class*="bg-emerald-50"] {
+  background-color: rgba(6, 78, 59, 0.4) !important;
+  border-color: rgba(4, 120, 87, 0.5) !important;
+}
+
+html.dark [class*="bg-amber-50"] {
+  background-color: rgba(120, 53, 15, 0.4) !important;
+  border-color: rgba(180, 83, 9, 0.5) !important;
+}
+
+html.dark [class*="bg-rose-50"] {
+  background-color: rgba(136, 19, 55, 0.4) !important;
+  border-color: rgba(190, 18, 60, 0.5) !important;
+}
+
+
+html.dark .text-slate-900,
+html.dark .text-slate-800,
+html.dark .text-slate-700 {
+  color: #f8fafc !important;
+}
+
+html.dark .text-slate-600,
+html.dark .text-slate-500 {
+  color: #cbd5e1 !important;
+}
+
+html.dark .text-slate-400 {
+  color: #94a3b8 !important;
+}
+
+html.dark .text-brand-dark {
+  color: #86B6F6 !important;
+}
+
+
+html.dark .text-amber-700,
+html.dark .text-amber-800 {
+  color: #fcd34d !important;
+}
+
+html.dark .text-blue-600,
+html.dark .text-blue-700 {
+  color: #60a5fa !important;
+}
+
+html.dark .text-emerald-600,
+html.dark .text-emerald-700 {
+  color: #34d399 !important;
+}
+
+html.dark .text-rose-600,
+html.dark .text-rose-700 {
+  color: #f87171 !important;
+}
+
+/* Border Overrides */
+html.dark .border-slate-200,
+html.dark .border-slate-200\/80,
+html.dark .border-slate-100,
+html.dark [class*="border-slate-100"],
+html.dark [class*="border-slate-200"] {
+  border-color: #334155 !important;
+}
+
+/* Table Specific Dark Hover Effect */
+html.dark tr.hover\:bg-slate-50\/50:hover,
+html.dark tr:hover {
+  background-color: rgba(30, 41, 59, 0.7) !important;
+}
+
+/* Inputs, Selects, and Textareas in Dark Mode */
+html.dark input, 
+html.dark select, 
+html.dark textarea {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+  border-color: #334155 !important;
+}
+
+html.dark input::placeholder,
+html.dark textarea::placeholder {
+  color: #64748b !important;
+}
+
+html.dark option {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+}
+
+/* Hover color fixes in Dark Mode */
+html.dark .hover\:text-\[\#0f172a\]:hover,
+html.dark button:hover i,
+html.dark a:hover i {
+  color: #86B6F6 !important;
+}
+
+/* Icon-only hover effects for top bar header action buttons */
+.header-action-btn {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.header-action-btn:hover i {
+  transform: scale(1.15);
+}
